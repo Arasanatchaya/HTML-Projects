@@ -1,0 +1,11 @@
+# Login Page (HTML)
+
+A simple login page created using HTML.
+
+## Features
+- Username & Password input
+- Required field validation
+- Submit & Reset options
+
+## Tech Used
+- HTML
