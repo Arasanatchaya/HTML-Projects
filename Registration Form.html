@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Name" required><br>
+
+        <label for="em">Email</label>
+        <input type="email"  id="em" name="em" placeholder="Email" required><br>
+
+        <label for="pwd">Password</label>
+        <input type="password" id="pwd" name="pwd" placeholder="Password" required><br>
+<fieldset>
+    <legend>
+        Choose a gender
+    </legend>
+        <input type="radio" required value="male" id="male" name="Gender" >
+        <label for="male"> Male</label>
+        <br>
+        <input type="radio" required value="female" id="female"  name="Gender">
+        <label for="female">Female</label>
+        <br>
+        <input type="radio" required value="others" id="others" name="Gender" >
+        <label for="others">others</label>
+</fieldset>
+      
+
+        <fieldset>
+    <legend> Skills </legend>
+
+    <input type="checkbox" value="HTML" id="HTML" name="Skills">
+    <label for="HTML">HTML</label>
+    <input type="checkbox" value="CSS" id="CSS" name="Skills">
+    <label for="CSS"> CSS</label>
+    <input type="checkbox" value="Java" id="java" name="Skills">
+    <label for="java">Java</label>
+
+</fieldset><br>
+        <label for="cn">country</label>
+   <select>
+    <option value="India" >India</option>
+    <option value="UK" >UK</option>
+    <option value="Canada" >Canada</option>
+    <option value="others">Others</option>
+   </select><br>
+
+      <button type="submit"> Submit</button>
+      <button type="reset">Reset</button>
+      
+
+
+    </form>
+
+</body>
+</html>
